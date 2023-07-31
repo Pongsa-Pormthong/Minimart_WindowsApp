@@ -11,7 +11,7 @@ namespace _09_windowsfrom_minimart
     {
         public SqlConnection SqlCon()
         {
-            string server = @"LAPTOP-GEASO219\SQLEXPRESS";//ชื่อ server
+            string server = "";//ชื่อ server
             string strDb = @"MiniMart";
             string strConn = string.Format(@"Data Source={0};Initial Catalog={1};"
                                              + "Integrated Security=True", server, strDb);
